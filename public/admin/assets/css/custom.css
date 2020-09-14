@@ -1,0 +1,24 @@
+.is-invalid .form-control-label {
+    color: #ef5350;
+}
+.table thead th {
+	text-transform: none;
+}
+#datatable tr th:first-child, #datatable tr td:first-child {
+	text-align: center;
+}
+.btn-comment {
+	position: relative;
+}
+.btn-comment .blink {
+    color: #9ccc65;
+    position: absolute;
+    top: -4px;
+    right: -4px;
+    animation: blinker 2s linear infinite;
+}
+@keyframes blinker {
+  	50% {
+    	opacity: 0;
+  	}
+}
